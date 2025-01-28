@@ -6,8 +6,8 @@ class main {
     public $password;
 
     public function __construct() {
-        $this->email =  "sahan@gmail.com" ; //isset($_POST["email"]) ? trim($_POST["email"]) : null;
-        $this->password =  "1234Aa";  //isset($_POST["password"]) ? trim($_POST["password"]) : null;
+        $this->email =   isset($_POST["email"]) ? trim($_POST["email"]) : null;
+        $this->password =    isset($_POST["password"]) ? trim($_POST["password"]) : null;
     }
     public function main(){
        $x = $this->submain();

@@ -60,8 +60,8 @@
                             <h6 class="text-center text-main">Already have an account ?</h6>
                             <h6 class="text-xl mb-32">Login</h6>
                             <div class="mb-24">
-                                <label for="username" class="text-neutral-900 text-lg mb-8 fw-medium">Username or email address <span class="text-danger">*</span> </label>
-                                <input type="text" class="common-input" id="username" placeholder="First Name">
+                                <label for="email" class="text-neutral-900 text-lg mb-8 fw-medium">email address <span class="text-danger">*</span> </label>
+                                <input type="text" class="common-input" id="email" placeholder="First Name">
                             </div>
                             <div class="mb-24">
                                 <label for="password" class="text-neutral-900 text-lg mb-8 fw-medium">Password</label>
@@ -72,7 +72,7 @@
                             </div>
                             <div class="mb-24 mt-48">
                                 <div class="flex-align gap-48 flex-wrap">
-                                    <button type="submit" class="btn btn-main py-18 px-40">Log in</button>
+                                    <button  class="btn btn-main py-18 px-40" onclick="login();" >Log in</button>
                                     <div class="form-check common-check">
                                         <input class="form-check-input" type="checkbox" value="" id="remember">
                                         <label class="form-check-label flex-grow-1" for="remember">Remember me</label>
@@ -92,8 +92,8 @@
                             <h6 class="text-center text-main">New to Vicstore ?</h6>
                             <h6 class="text-xl mb-32">Register</h6>
                             <div class="mb-24">
-                                <label for="usernameTwo" class="text-neutral-900 text-lg mb-8 fw-medium">Username <span class="text-danger">*</span> </label>
-                                <input type="text" class="common-input" id="usernameTwo" placeholder="Write a username">
+                                <label for="usernameTwo" class="text-neutral-900 text-lg mb-8 fw-medium">mobile <span class="text-danger">*</span> </label>
+                                <input type="text" class="common-input" id="mobile" placeholder="Write a username">
                             </div>
                             <div class="mb-24">
                                 <label for="emailTwo" class="text-neutral-900 text-lg mb-8 fw-medium">Email address <span class="text-danger">*</span> </label>
@@ -159,7 +159,7 @@
     <script src="assets/js/main.js"></script>
 
 
-
+<script src="sahan.js"></script>
 </body>
 
 </html>
