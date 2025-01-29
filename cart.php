@@ -90,7 +90,7 @@
                                         <img src="assets/images/thumbs/product-two-img1.png" alt="">
                                     </a>
                                 </div>
-                                <div class="col-12 col-md-10">
+                                <div class="col-12 col-md-10 d-flex align-items-center justify-content-center">
                                     <div class="row">
                                         <div class="col-12 col-md-4 d-flex flex-column text-center ">
                                             <a class="title text-dark fw-semibold text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
