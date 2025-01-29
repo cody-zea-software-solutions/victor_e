@@ -154,7 +154,7 @@
                                 <span class="text-gray-900 text-xl fw-semibold">Rs 250.00</span>
                             </div>
                         </div>
-                        <a href="checkout.html" class="btn btn-main mt-40 py-18 w-100 fw-bold h6 rounded-8 ">Checkout</a>
+                        <a href="guest-checkout.php" class="btn btn-main mt-40 py-18 w-100 fw-bold h6 rounded-8 ">Checkout</a>
                     </div>
                 </div>
             </div>

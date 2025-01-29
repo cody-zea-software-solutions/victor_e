@@ -33,7 +33,7 @@
         <img src="assets/images/icon/preloader.gif" alt="">
     </div>
     <!--==================== Preloader End ====================-->
-    
+
     <?php require_once "basic_header.php"; ?>
     <div class="container-fluid">
         <div class="row bg-main-two-50">
@@ -89,7 +89,7 @@
                     <!-- Register Card Start -->
                     <div class="col-xl-6">
                         <div class="border border-gray-100 hover-border-main-600 transition-1 rounded-16 px-24 py-40">
-                        <h6 class="text-center text-main">New to Vicstore ?</h6>
+                            <h6 class="text-center text-main">New to Vicstore ?</h6>
                             <h6 class="text-xl mb-32">Register</h6>
                             <div class="mb-24">
                                 <label for="usernameTwo" class="text-neutral-900 text-lg mb-8 fw-medium">Username <span class="text-danger">*</span> </label>
@@ -108,7 +108,6 @@
                             </div>
                             <div class="my-48">
                                 <p class="text-gray-500">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our
-                                    <a href="#" class="text-main-600 text-decoration-underline"> privacy policy</a>
                                     .
                                 </p>
                             </div>
@@ -125,7 +124,7 @@
     </section>
     <!-- =============================== Account Section End =========================== -->
 
-    
+
 
 
     <?php require "footer.php"; ?>

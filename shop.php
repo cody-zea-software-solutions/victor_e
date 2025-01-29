@@ -80,7 +80,7 @@
                                 for ($i = 0; $i < 10; $i++) {
                                 ?>
                                     <li class="mb-24">
-                                        <a href="product-details-two.html" class="text-gray-900 hover-text-main-600">Mobile & Accessories (12)</a>
+                                        <a href="product-details.php" class="text-gray-900 hover-text-main-600">Mobile & Accessories (12)</a>
                                     </li>
                                 <?php
                                 }
@@ -144,12 +144,12 @@
                             ?>
                                 <div class="col-6 col-md-4">
                                     <div class="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                                        <a href="product-details.html" class="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative">
+                                        <a href="product-details.php" class="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative">
                                             <img src="assets/images/thumbs/product-two-img2.png" alt="" class="w-auto max-w-unset">
                                         </a>
                                         <div class="product-card__content mt-16">
                                             <h6 class="title text-lg fw-semibold mt-12 mb-8">
-                                                <a href="product-details.html" class="link text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
+                                                <a href="product-details.php" class="link text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
                                             </h6>
                                             <div class="mt-8">
                                                 <div class="progress w-100 bg-color-three rounded-pill h-4" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">

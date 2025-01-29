@@ -1,3 +1,34 @@
+function togglePasswordVisibility(id) {
+  let input = document.getElementById(id);
+  let icon = event.target;
+  if (input.type === "password") {
+      input.type = "text";
+      icon.classList.replace("ph-eye-slash", "ph-eye");
+  } else {
+      input.type = "password";
+      icon.classList.replace("ph-eye", "ph-eye-slash");
+  }
+}
+
+function toggleDivs(selected) {
+  const firstDiv = document.getElementById("firstDiv");
+  const secondDiv = document.getElementById("secondDiv");
+  const btnFirst = document.getElementById("btnFirst");
+  const btnSecond = document.getElementById("btnSecond");
+
+  if (selected === "first") {
+      firstDiv.classList.remove("d-none");
+      secondDiv.classList.add("d-none");
+      btnFirst.classList.add("btn-main");
+      btnSecond.classList.remove("btn-main");
+  } else {
+      firstDiv.classList.add("d-none");
+      secondDiv.classList.remove("d-none");
+      btnSecond.classList.add("btn-main");
+      btnFirst.classList.remove("btn-main");
+  }
+}
+
 (function ($) {
   "use strict";
   

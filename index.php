@@ -239,13 +239,13 @@
                         <!-- product card start -->
                         <div data-aos="fade-up" data-aos-duration="200">
                             <div class="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                                <a href="product-details-two.html" class="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative">
+                                <a href="product-details.php" class="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative">
                                     <span class="product-card__badge bg-main-600 px-8 py-4 text-sm text-white position-absolute inset-inline-start-0 inset-block-start-0">50% Off </span>
                                     <img src="assets/images/thumbs/product-two-img1.png" alt="" class="w-auto max-w-unset">
                                 </a>
                                 <div class="product-card__content mt-16">
                                     <h6 class="title text-lg fw-semibold mt-12 mb-8">
-                                        <a href="product-details-two.html" class="link text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
+                                        <a href="product-details.php" class="link text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="mt-8">
                                         <div class="progress w-100 bg-color-three rounded-pill h-4" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
@@ -322,12 +322,12 @@
                                 <!-- product card start -->
                                 <div data-aos="fade-up" data-aos-duration="200">
                                     <div class="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                                        <a href="product-details-two.html" class="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative">
+                                        <a href="product-details.php" class="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative">
                                             <img src="assets/images/thumbs/product-two-img7.png" alt="" class="w-auto max-w-unset">
                                         </a>
                                         <div class="product-card__content mt-16">
                                             <h6 class="title text-lg fw-semibold mt-12 mb-8">
-                                                <a href="product-details-two.html" class="link text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
+                                                <a href="product-details.php" class="link text-line-2" tabindex="0">Taylor Farms Broccoli Florets Vegetables</a>
                                             </h6>
                                             <div class="mt-8">
                                                 <div class="progress w-100 bg-color-three rounded-pill h-4" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
@@ -396,12 +396,12 @@
                                         ?>
                                             <div class="" data-aos="fade-up" data-aos-duration="800">
                                                 <div class="mt-24 product-card d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                                                    <a href="product-details-two.html" class="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24" tabindex="0">
+                                                    <a href="product-details.php" class="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24" tabindex="0">
                                                         <img src="assets/images/thumbs/product-two-img2.png" alt="" class="w-auto max-w-unset">
                                                     </a>
                                                     <div class="product-card__content my-20 flex-grow-1">
                                                         <h6 class="title text-lg fw-semibold mb-12">
-                                                            <a href="product-details-two.html" class="link text-line-2" tabindex="0">iPhone 15 Pro Warp Charge 30W Power Adapter</a>
+                                                            <a href="product-details.php" class="link text-line-2" tabindex="0">iPhone 15 Pro Warp Charge 30W Power Adapter</a>
                                                         </h6>
                                                         <div class="product-card__price my-20">
                                                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rs 28.99</span>
@@ -484,12 +484,12 @@
                     ?>
                         <div class="col-xxl-3 col-xl-4 col-sm-6 col-xs-6 wow bounceIn">
                             <div class="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                                <a href="product-details.html" class="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24" tabindex="0">
+                                <a href="product-details.php" class="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24" tabindex="0">
                                     <img src="assets/images/thumbs/popular-img1.png" alt="" class="w-auto max-w-unset">
                                 </a>
                                 <div class="product-card__content flex-grow-1">
                                     <h6 class="title text-lg fw-semibold mb-12">
-                                        <a href="product-details.html" class="link text-line-2" tabindex="0">Headphone & Earphone</a>
+                                        <a href="product-details.php" class="link text-line-2" tabindex="0">Headphone & Earphone</a>
                                     </h6>
                                     <span class="text-gray-600 text-sm mb-4">Wired Headphones</span>
                                     <span class="text-gray-600 text-sm mb-4">Over-Ear Headphone</span>
