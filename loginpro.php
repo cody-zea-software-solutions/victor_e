@@ -4,15 +4,17 @@ require_once "sequrity.php";
 class main {
     public $email;
     public $password;
+    public $remember;
 
     public function __construct() {
         $this->email =   isset($_POST["email"]) ? trim($_POST["email"]) : null;
         $this->password =    isset($_POST["password"]) ? trim($_POST["password"]) : null;
+        $this->remember = $_POST["remember"];
     }
     public function main(){
        $x = $this->submain();
        if($x == "true"){
-          $instance = new check($this->email, $this->password);
+          $instance = new check($this->email, $this->password, $this->remember);
           return $instance->check();
        }else{
         return $x;
@@ -43,9 +45,10 @@ class main {
     }
 }
 class check extends main {
-    public function __construct($email, $password) {
+    public function __construct($email, $password , $remember) {
         $this->email = $email;
         $this->password = $password;
+        $this->remember = $remember;
     }
     public function checksql(){
         $sanitized_input = Security::sanitizeInput($this->email);
@@ -83,6 +86,14 @@ class check extends main {
                             "user_agent" => $_SERVER['HTTP_USER_AGENT'], 
                         );                    
                         return $user['fname'] . " login success!";
+
+                        if ($this->remember == "true") {
+                            setcookie("email", $this->email, time() + (60 * 60 * 24 * 365), '/', '', true, true); 
+                            setcookie("password", $this->password, time() + (60 * 60 * 24 * 365), '/', '', true, true);
+                        } else {  
+                            setcookie("email", "", time() - 3600, '/', '', true, true);
+                            setcookie("password", "", time() - 3600, '/', '', true, true);
+                        }
                     }else{
                         return "session errore.";
                     }
