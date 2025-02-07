@@ -128,7 +128,11 @@ class sql
                                         $dccc = $dcc->fetch_assoc();
                                         if ($dccc["distric_distric_id"] == $userdata["district"]) {
                                              $adressid = $x["adress_id"];
-                                             Database::IUD("UPDATE `address` SET `line_1` = 'mk', `line_2` = 'kk', `city_city_id` = '2', `distric_distric_id` = '2' 
+                                             $address1 = $userdata["address1"];
+                                             $address2 = $userdata["address2"];
+                                             $city = $userdata["city"];
+                                             $district = $userdata["district"];
+                                             Database::IUD("UPDATE `address` SET `line_1` = '".$address1."', `line_2` = '".$address2."', `city_city_id` = '".$city."', `distric_distric_id` = '".$district."' 
                                              WHERE (`address_id` = '" . $adressid . "');");
                                              $lastInsertIdQuery = 0;
                                            return  $this->mainuserin($userdata, $lastInsertIdQuery);
