@@ -28,7 +28,7 @@ function adminLogin() {
     };
 
     // Send the request (POST method)
-    r.open("POST", "process/adminLoginprocess.php", true);
+    r.open("POST", "adminLoginprocess.php", true);
     r.send(form);
 }
 
