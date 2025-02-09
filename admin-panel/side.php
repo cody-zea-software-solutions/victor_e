@@ -67,6 +67,14 @@
               </a>
             </li>
             <li class="sidebar-item">
+              <a class="sidebar-link" href="add-batch.php" aria-expanded="false">
+                <span>
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </span>
+                <span class="hide-menu">Add Batch</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
               <a class="sidebar-link" href="manage-product.php" aria-expanded="false">
                 <span>
                 <i class="fa fa-list" aria-hidden="true"></i>

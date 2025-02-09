@@ -50,7 +50,7 @@ if (isset($_SESSION["a"])) {
                   <span class="mb-9 text-dark-emphasis">You can add new product here</span>
                 </div>
               </div>
-              <div class="col-12 col-lg-10 border shadow">
+              <div class="col-12 col-lg-10 border shadow mb-5">
                 <div class="row m-3">
                   <div class="col-12 mt-4">
                     <div class="form-floating">
@@ -145,17 +145,56 @@ if (isset($_SESSION["a"])) {
                     </div>
                   </div>
 
-                  <div class="col-12 mt-4">
-                    <div class="row justify-content-center">
-                      <div class="col-6">
-                        <div class="input-group">
-                          <div class="form-floating is-invalid">
-                            <input type="text" class="form-control rounded-0" placeholder="Enter Amount" required>
-                            <label>Product Weight ( Ex:-3.450 )</label>
-                          </div>
-                          <span class="input-group-text rounded-0">kg</span>
-                        </div>
+                  <div class="col-6 mt-4">
+                    <div class="input-group">
+                      <div class="form-floating is-invalid">
+                        <input type="text" class="form-control rounded-0" placeholder="Enter Amount" required>
+                        <label>Product Weight ( Ex:-3.450 )</label>
                       </div>
+                      <span class="input-group-text rounded-0">kg</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6 mt-4">
+                    <div class="form-floating">
+                      <input type="text" class="form-control rounded-0" placeholder="Batch ID">
+                      <label>Batch ID</label>
+                    </div>
+                  </div>
+
+                  <div class="col-6 mt-4">
+                    <div class="form-floating">
+                      <input type="text" class="form-control rounded-0" placeholder="Vendor Name">
+                      <label>Vendor Name</label>
+                    </div>
+                  </div>
+
+                  <div class="col-6 mt-4">
+                    <div class="form-floating">
+                      <input type="number" class="form-control rounded-0" placeholder="Product Qty">
+                      <label>Batch Qty</label>
+                    </div>
+                  </div>
+
+                  <div class="col-6 mt-4">
+                    <div class="input-group">
+                      <span class="input-group-text rounded-0">LKR</span>
+                      <div class="form-floating is-invalid">
+                        <input type="text" class="form-control" placeholder="Enter Amount" required>
+                        <label>Batch Price</label>
+                      </div>
+                      <span class="input-group-text rounded-0">.00</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6 mt-4">
+                    <div class="input-group">
+                      <span class="input-group-text rounded-0">LKR</span>
+                      <div class="form-floating is-invalid">
+                        <input type="text" class="form-control" placeholder="Enter Amount" required>
+                        <label>Selling Price</label>
+                      </div>
+                      <span class="input-group-text rounded-0">.00</span>
                     </div>
                   </div>
 
@@ -204,62 +243,8 @@ if (isset($_SESSION["a"])) {
                 </div>
               </div>
 
-              <div class="col-12 col-lg-10 border shadow mt-5">
-                <div class="row m-3">
-
-                  <div class="col-12 mt-4">
-                    <div class="form-floating">
-                      <select class="form-select rounded-0" aria-label="Floating label select example">
-                        <option selected>Select Product</option>
-                      </select>
-                      <label>Select your product here</label>
-                    </div>
-                  </div>
-
-                  <div class="col-6 mt-4">
-                    <div class="form-floating">
-                      <input type="text" class="form-control rounded-0" placeholder="Vendor Name">
-                      <label>Vendor Name</label>
-                    </div>
-                  </div>
-
-                  <div class="col-6 mt-4">
-                    <div class="form-floating">
-                      <input type="number" class="form-control rounded-0" placeholder="Product Qty">
-                      <label>Batch Qty</label>
-                    </div>
-                  </div>
-
-                  <div class="col-6 mt-4">
-                    <div class="input-group">
-                      <span class="input-group-text rounded-0">LKR</span>
-                      <div class="form-floating is-invalid">
-                        <input type="text" class="form-control" placeholder="Enter Amount" required>
-                        <label>Batch Price</label>
-                      </div>
-                      <span class="input-group-text rounded-0">.00</span>
-                    </div>
-                  </div>
-
-                  <div class="col-6 mt-4">
-                    <div class="input-group">
-                      <span class="input-group-text rounded-0">LKR</span>
-                      <div class="form-floating is-invalid">
-                        <input type="text" class="form-control" placeholder="Enter Amount" required>
-                        <label>Selling Price</label>
-                      </div>
-                      <span class="input-group-text rounded-0">.00</span>
-                    </div>
-                  </div>
-
-                  <div class="col-12 text-end mt-4">
-                    <button class="btn rounded-1 fw-bold x col-md-2"><i class="fa fa-plus-circle" aria-hidden="true"></i> ADD</button>
-                  </div>
-                </div>
-              </div>
-
             </div>
-            
+
           </div>
         </div>
       </div>
