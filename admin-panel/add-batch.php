@@ -68,7 +68,7 @@ if (isset($_SESSION["a"])) {
                     </div>
                   </div>
 
-                  <div class="col-12 mt-4">
+                  <div class="col-12 mt-2">
                     <div class="form-floating">
                       <select class="form-select rounded-0" aria-label="Floating label select example">
                         <option selected>Select Product</option>
@@ -77,7 +77,9 @@ if (isset($_SESSION["a"])) {
                     </div>
                   </div>
 
-                  <div class="col-12 mt-5">
+                  <hr class="mt-4 text-dark">
+
+                  <div class="col-12 mt-3">
                     <div class="form-floating">
                       <input type="text" class="form-control rounded-0" placeholder="Batch ID">
                       <label>Batch Id</label>
